@@ -89,10 +89,10 @@ add_loop:
 	
 	
 	;print kết quả	
-	mov edx,len3					; đọ dài cảu msg3
+	mov edx,len3					; đọ dài của msg3
 	mov ecx,msg3					; đại chỉ của msg3
 	call print					; gọi hàm print	
-	mov edx,10					; đọ dài của cần in total
+	mov edx,10					; độ dài của cần in total
 	mov ecx,total					; địa chỉ của total
 	call print					; gọi hàm print
 	;exit
